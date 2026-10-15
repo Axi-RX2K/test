@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 编译产物
+build/
+dist/
+*.o
+*.so
+*.ninja_deps
+*.ninja_log
+
+# 模型权重 / 推理引擎（体积过大，不要进 Git）
+model_data/ckpt/
+model_data/onnx/
+model_data/yolo/
+*.pth
+*.pt
+*.onnx
+*.engine
+
+# 测试媒体与样例数据
+testfile/
